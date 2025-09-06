@@ -1,7 +1,10 @@
+import Navbar from "../components/Navbar";
 export default function About(){
     return(
+        
         <div className=" w-[1600px] h-[1000px] bg-gray-300">
-            <h1>About Page</h1>
+            <h1>About1 Page</h1>
         </div>
+       
     )
 }

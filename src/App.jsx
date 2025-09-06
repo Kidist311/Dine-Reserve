@@ -4,18 +4,32 @@ import Home from "./pages/Home.jsx";
 import About from "./pages/About.jsx";
 import Menu from "./pages/Menu.jsx";
 import Contact from "./pages/Contact.jsx";
+//import Prac from "./components/Prac.jsx";
 
 export default function App() {
   return (
     <>
-      <Navbar /> 
-      
+      <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/menu" element={<Menu />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
+      
+      
     </>
+   
   );
 }
+/* <>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/menu" element={<Menu />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+      
+      
+    </>*/
