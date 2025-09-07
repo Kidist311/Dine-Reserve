@@ -26,7 +26,7 @@ export default function Home() {
                         <img
                             src="/icons/burger.png"
                             alt="logo"
-                            className="w-[470px] h-[460px] md:h-[520px] md:w-[520px] object-contain rounded-lg rotate-[-2deg] shadow-lg transition-transform duration-500 hover:scale-108 hover:rotate-0"
+                            className="w-[470px] h-[460px] md:h-[500px] md:w-[500px] object-contain rounded-lg rotate-[-2deg] shadow-lg transition-transform duration-500 hover:scale-108 hover:rotate-0"
                         />
                 </div> 
             </div>
@@ -34,6 +34,8 @@ export default function Home() {
         
         <div className=" absolute bottom-0 md:top-0  md:right-0 w-full h-[480px] md:h-[570px]  bg-orange-500  md:w-[20px]"></div>
         </div>
+
+        
         
 
       </div>
