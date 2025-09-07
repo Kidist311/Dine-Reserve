@@ -23,7 +23,7 @@ export default function Navbar() {
 
   return (
     <header>
-      <nav className="w-full bg-white shadow-md fixed top-0 left-0 z-50 px-4 py-4">
+      <nav className="w-full bg-white shadow-md fixed top-0 left-0 z-50 px-4 py-8.5">
         {/* Mobile / Desktop Top Row */}
         <div className="flex items-center justify-between w-full">
           {/* Left: Logo + Text */}
