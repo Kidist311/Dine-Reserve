@@ -10,13 +10,14 @@ export default function App() {
   return (
     <>
       <Navbar />
+      <main className="">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/menu" element={<Menu />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-      
+      </main>
       
     </>
    
