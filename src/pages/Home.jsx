@@ -35,7 +35,16 @@ export default function Home() {
         <div className=" absolute bottom-0 md:top-0  md:right-0 w-full h-[480px] md:h-[570px]  bg-orange-500  md:w-[20px]"></div>
         </div>
 
-        <div className="  top-0 left-0 w-full max-w-[1300px] h-[1000px] md:h-[570px] bg-yellow-200 relative "></div>
+        <div className="  top-0 left-0 w-full max-w-[1300px] h-[300px]  bg-white relative ">
+            <p className="flex justify-center font-bold text-2xl py-32 ">Order from your favorite app today!</p>
+            <div className="flex justify-center gap-13 flex-wrap bg-white items-center -mt-20">
+                <a className="" href="https://www.ubereats.com/"><img src="/icons/uber.svg" alt="Uber Eats" className="w-25 h-25" /></a>
+                <a className="" href="https://www.doordash.com/"><img src="/icons/door.svg" alt="Uber Eats" className="w-50 h-50" /></a>
+                <a className="" href="https://postmates.com/"><img src="/icons/post.svg" alt="Uber Eats" className="w-27 h-27" /></a>
+                <a className="" href="https://www.rappi.com.mx/"><img src="/icons/Rappi.svg" alt="Uber Eats" className="w-30 h-30" /></a>
+                <a className="" href="https://www.grubhub.com/"><img src="/icons/guhu.svg" alt="Uber Eats" className="w-30 h-30" /></a>
+            </div>
+        </div>
         
 
       </div>
