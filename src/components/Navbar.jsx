@@ -103,26 +103,54 @@ export default function Navbar() {
         </div>
 
         {/* Mobile Drawer */}
-        <div
-          className={`absolute top-full left-0 w-full bg-white shadow-lg origin-top transform transition-transform duration-300 md:hidden ${
-            isOpen ? "scale-y-100" : "scale-y-0"
+        {/* Mobile Drawer */}
+<div
+  className={`fixed top-20 left-0 w-full bg-white shadow-lg md:hidden transition-all duration-300 z-50 ${
+    isOpen ? "block" : "hidden"
+  }`}
+>
+  <ul className="flex flex-col gap-6 text-center mt-4 text-lg font-medium p-4 text-gray-700">
+    <li className="hover:text-orange-500 cursor-pointer">
+      <Link to="/">Home</Link>
+    </li>
+    <li className="hover:text-orange-500 cursor-pointer">
+      <Link to="/menu">Menu</Link>
+    </li>
+    <li className="hover:text-orange-500 cursor-pointer">
+      <Link to="/about">About</Link>
+    </li>
+
+    {/* Mobile Pages Dropdown */}
+    <li>
+      <button
+        onClick={() => setIsDropdownOpen(!isDropdownOpen)}
+        className="flex items-center justify-center gap-1 hover:text-orange-500 cursor-pointer w-full"
+      >
+        Pages
+        <ChevronDown
+          className={`ml-1 transition-transform duration-300 ${
+            isDropdownOpen ? "rotate-180" : ""
           }`}
-        >
-          <ul className="flex flex-col gap-6 text-center mt-4 text-lg font-medium p-4 text-gray-700">
-            <li className="hover:text-orange-500 cursor-pointer">
-              <Link to="/">Home</Link>
-            </li>
-            <li className="hover:text-orange-500 cursor-pointer">
-              <Link to="/menu">Menu</Link>
-            </li>
-            <li className="hover:text-orange-500 cursor-pointer">
-              <Link to="/about">About</Link>
-            </li>
-            <li className="hover:text-orange-500 cursor-pointer">
-              <Link to="/pages">Pages</Link>
-            </li>
-          </ul>
-        </div>
+          size={16}
+        />
+      </button>
+      {isDropdownOpen && (
+        <ul className="bg-white shadow-lg rounded mt-2 w-full flex flex-col">
+          <li className="px-4 py-2 hover:bg-orange-100 cursor-pointer">
+            <Link to="/pages/page1">Page 1</Link>
+          </li>
+          <li className="px-4 py-2 hover:bg-orange-100 cursor-pointer">
+            <Link to="/pages/page2">Page 2</Link>
+          </li>
+          <li className="px-4 py-2 hover:bg-orange-100 cursor-pointer">
+            <Link to="/pages/page3">Page 3</Link>
+          </li>
+        </ul>
+      )}
+    </li>
+  </ul>
+</div>
+
       </nav>
     </header>
   );

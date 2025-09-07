@@ -4,7 +4,7 @@ export default function Home() {
         <div className="  top-0 left-0 w-full max-w-[1300px] h-[1000px] md:h-[570px] bg-yellow-200 relative ">
         
         <div className="w-full  h-[600px] md:h-[570px]  bg-gray-50 md:w-full ">
-            <div className="flex flex-col md:flex-row gap-9 px-3 md:px-5 py-3 z-10">
+            <div className="flex flex-col md:flex-row gap-9 px-3 md:px-5 py-3 ">
                 <div className="bg-gray-50 p-4 md:p-4 h-[400px] md:h-[550px]   md:flex-1 ">
                     <h1 className="text-5xl  text-left font-bold mt-12 md:mt-14 md:justify-center">The best place to eat <br /> 
                     <span className="text-orange-500">burgers in LA</span>.
@@ -21,7 +21,7 @@ export default function Home() {
                    </div>
                 </div>
                 
-                <div className="bg-gray-50  p-4 md:p-0  h-[450px] md:h-[550px] md:flex-1 relative  -mb-40 z-20 flex justify-center items-center">
+                <div className="bg-transparent  p-4 md:p-0  h-[450px] md:h-[550px] md:flex-1 relative  -mb-40 z-20 flex justify-center items-center">
 
                         <img
                             src="/icons/burger.png"
@@ -35,7 +35,7 @@ export default function Home() {
         <div className=" absolute bottom-0 md:top-0  md:right-0 w-full h-[480px] md:h-[570px]  bg-orange-500  md:w-[20px]"></div>
         </div>
 
-        
+        <div className="  top-0 left-0 w-full max-w-[1300px] h-[1000px] md:h-[570px] bg-yellow-200 relative "></div>
         
 
       </div>
