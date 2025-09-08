@@ -37,13 +37,14 @@ export default function Home() {
 
         <div className="  top-0 left-0 w-full max-w-[1300px] h-[300px]  bg-white relative ">
             <p className="flex justify-center font-bold text-2xl py-32 ">Order from your favorite app today!</p>
-            <div className="flex justify-center gap-13 flex-wrap bg-white items-center -mt-20">
-                <a className="" href="https://www.ubereats.com/"><img src="/icons/uber.svg" alt="Uber Eats" className="w-25 h-25" /></a>
+            <div className="flex justify-center gap-3 md:gap-10 flex-wrap bg-white items-center -mt-20">
+                <a className="" href="https://www.ubereats.com/"><img src="/icons/uber.svg" alt="Uber Eats" className="w-35 h-35" /></a>
                 <a className="" href="https://www.doordash.com/"><img src="/icons/door.svg" alt="Uber Eats" className="w-50 h-50" /></a>
-                <a className="" href="https://postmates.com/"><img src="/icons/post.svg" alt="Uber Eats" className="w-27 h-27" /></a>
-                <a className="" href="https://www.rappi.com.mx/"><img src="/icons/Rappi.svg" alt="Uber Eats" className="w-30 h-30" /></a>
-                <a className="" href="https://www.grubhub.com/"><img src="/icons/guhu.svg" alt="Uber Eats" className="w-30 h-30" /></a>
+                <a className="" href="https://postmates.com/"><img src="/icons/post.svg" alt="Uber Eats" className="w-35 h-35" /></a>
+                <a className="" href="https://www.rappi.com.mx/"><img src="/icons/Rappi.svg" alt="Uber Eats" className="w-35 h-35" /></a>
+                <a className="" href="https://www.grubhub.com/"><img src="/icons/guhu.svg" alt="Uber Eats" className="w-35 h-35" /></a>
             </div>
+            <hr className="mr-5 ml-5 border-red-600" />
         </div>
         
 
