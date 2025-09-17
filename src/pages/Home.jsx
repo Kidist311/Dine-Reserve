@@ -165,6 +165,47 @@ export default function Home() {
           </div>
        </div>
 
+       {/* menu */}
+       <div className=" w-full max-w-[1300px] h-[2400px] md:h-[1000px]  bg-yellow-400  ">
+
+       </div>
+
+       {/* order kind */}
+       <div className="w-full max-w-[1300px] h-[800px] md:h-[700px] bg-orange-500 flex flex-col md:flex-row ">
+       
+          <div className="flex-1 p-4 ">
+              <div className="flex flex-col mt-10 md:mt-36 h-[300px] md:h-[400px] p-4 ">
+                    <hr className="bg-white h-0.5 w-36 border-0" />
+
+                    <h1 className="font-bold text-3xl text-white text-left mt-8">Taste the most delicious burger in <br/>Los Angeles, CA</h1>
+                    <p className="text-left text-white mt-5 text-lg">
+                    Lorem ipsum dolor sit amet consectetur adipiscing elit ugue <br/>
+                    quam diam vitae velit bibendum elementum.
+                    </p>
+                    <div className="flex gap-4  py-10 justify-start">
+                            <button className="h-14 px-8 text-xl rounded-full text-gray-900 bg-white border border-gray-300 hover:bg-orange-500 hover:text-white transition-colors duration-300 whitespace-nowrap">
+                            Order Online
+                            </button>
+                            <button className="h-15 px-10 text-xl text-white border rounded-full bg-orange-500 hover:scale-105 hover:shadow-xl transition-transform duration-200 whitespace-nowrap">
+                              Book Table
+                            </button>
+                            
+                        </div>
+              </div> 
+          </div>
+
+          <div className="flex-1 bg-red-400 ">
+              <img src="/k/burger.png" alt="phone" className="w-full h-full object-cover" />
+
+          </div>
+      </div>
+{/* order kind */}
+      <div className=" w-full max-w-[1300px] h-[2400px] md:h-[1000px]  bg-yellow-400  ">
+
+       </div>
+
+
+
       </div>
     );
   }
