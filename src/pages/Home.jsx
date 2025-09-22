@@ -1,5 +1,6 @@
 import { ChevronRight } from "lucide-react";
 
+
 export default function Home() {
     return (
       <div className="relative w-full max-w-[1300px] h-[5000px] bg-gray-300  ">
@@ -200,9 +201,15 @@ export default function Home() {
           </div>
       </div>
 {/* order kind */}
-      <div className=" w-full max-w-[1300px] h-[2400px] md:h-[1000px]  bg-yellow-400  ">
+<div className="w-full max-w-[1300px] h-[2000px] md:h-[1000px] bg-yellow-400">
+  
+</div>
 
-       </div>
+{/* order kind */}
+<div className=" w-full max-w-[1300px] h-[2400px] md:h-[1000px]  bg-pink-400  ">
+
+</div>
+       
 
 
 
