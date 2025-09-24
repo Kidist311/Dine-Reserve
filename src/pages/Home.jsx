@@ -1,4 +1,5 @@
 import { ChevronRight } from "lucide-react";
+import MenuWo from "../components/MenuWo.jsx";
 
 
 export default function Home() {
@@ -167,9 +168,7 @@ export default function Home() {
        </div>
 
        {/* menu */}
-       <div className=" w-full max-w-[1300px] h-[2400px] md:h-[1000px]  bg-yellow-400  ">
-
-       </div>
+       <MenuWo />
 
        {/* order kind */}
        <div className="w-full max-w-[1300px] h-[800px] md:h-[700px] bg-orange-500 flex flex-col md:flex-row ">
