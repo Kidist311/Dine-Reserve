@@ -6,6 +6,11 @@ import Menu from "./pages/Menu.jsx";
 import Contact from "./pages/Contact.jsx";
 //import Prac from "./components/Prac.jsx";
 
+import BreakfastItems from "./category/Breakfast";
+import MainDishItems from "./category/MainDish";
+import DrinksItems from "./category/Drinks";
+import DessertItems from "./category/Dessert";
+
 export default function App() {
   return (
     <>
@@ -16,8 +21,14 @@ export default function App() {
         <Route path="/about" element={<About />} />
         <Route path="/menu" element={<Menu />} />
         <Route path="/contact" element={<Contact />} />
+
+        <Route path="/category/breakfast" element={<BreakfastItems />} />
+        <Route path="/category/maindish" element={<MainDishItems />} />
+        <Route path="/category/drinks" element={<DrinksItems />} />
+        <Route path="/category/dessert" element={<DessertItems />} />
       </Routes>
       </main>
+      
       
     </>
    

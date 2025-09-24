@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import Card from "../components/card.jsx";
 import foods from "../foods.js";
 import Order from "../components/Order.jsx";
-export default function Menu() {
+export default function Dessert() {
 
     function createCard(food){
         return(
@@ -18,12 +18,12 @@ export default function Menu() {
             />
         );
     }
-    //const breakfastFoods = foods.filter(food => food.category === "breakfast");
+    const breakfastFoods = foods.filter(food => food.category === "dessert");
 
     return (
         <div className="relative w-full max-w-[1300px] h-[5000px] bg-gray-300">
             <div className="w-full max-w-[1300px] h-[340px] bg-white flex flex-col items-center">
-                <h1 className="text-7xl font-bold text-center mt-20">Our menu</h1>
+                <h1 className="text-7xl font-bold text-center mt-20">Breakfast</h1>
                 <p className="text-center text-gray-500 mt-4 px-20">
                     Lorem ipsum dolor sit amet consectetur adipiscing elit ugue quam <br />
                     diam vitae velit bibendum elementum dolor.
@@ -49,7 +49,7 @@ export default function Menu() {
             </div>
 
             <div className="w-full max-w-[1300px]  bg-white grid grid-cols-1 md:grid-cols-4 gap-4 justify-items-center pb-40">
-            {foods.map(createCard)}
+            {breakfastFoods.map(createCard)}
 
             </div>
             
