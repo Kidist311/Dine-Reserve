@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { useState, useRef, useEffect } from "react";
 import { Menu, X, ChevronDown } from "lucide-react";
 
-export default function Navbar() {
+export default function Navbar({ setCartOpen, cartItems }) {
   const [isOpen, setIsOpen] = useState(false);
   const [count, setCount] = useState(0);
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -82,9 +82,16 @@ export default function Navbar() {
               )}
             </li>
 
-            <li className="hover:text-orange-500 cursor-pointer">
+           {/* <li className="hover:text-orange-500 cursor-pointer">
               Count(<span className="text-yellow-500">{count}</span>)
-            </li>
+            </li>*/}
+            <button
+                onClick={() => setCartOpen(true)}
+                className="h-11 px-5 text-white border rounded-full bg-orange-500 hover:scale-105 hover:shadow-xl transition"
+              >
+                🛒 Cart ({cartItems.length})
+          </button>
+
           </ul>
 
           {/* Buttons */}

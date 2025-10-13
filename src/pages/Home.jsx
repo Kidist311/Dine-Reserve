@@ -1,10 +1,11 @@
 import { ChevronRight } from "lucide-react";
 import MenuWo from "../components/MenuWo.jsx";
-
+//import Swiper from "../components/SwiperComponent.jsx";
+import SwiperComponent from "../components/SwiperComponent.jsx";
 
 export default function Home() {
     return (
-      <div className="relative w-full max-w-[1300px] h-[5000px] bg-gray-300  ">
+      <div className="relative w-full max-w-[1300px] h-[5000px] bg-white  ">
         <div className="  top-0 left-0 w-full max-w-[1300px] h-[1000px] md:h-[570px] bg-yellow-200 relative ">
         
         <div className="w-full  h-[600px] md:h-[570px]  bg-gray-50 md:w-full ">
@@ -200,8 +201,17 @@ export default function Home() {
           </div>
       </div>
 {/* order kind */}
-<div className="w-full max-w-[1300px] h-[2000px] md:h-[1000px] bg-yellow-400">
+<div className="w-full max-w-[1300px] h-[2000px] md:h-[1000px] bg-yellow-400 ">
   
+    <div className="pt-40 px-19 pb-10 flex flex-col justify-center items-center bg-green-300 ">
+      <h1 className=" font-bold text-2xl py-5 ">What our clients say</h1>
+      <p className="text-center">Lorem ipsum dolor sit amet consectetur adipiscing elit ugue <br/>
+        quam diam vitae velit bibendum elementum</p>
+    </div>
+    
+    <SwiperComponent />
+    
+   
 </div>
 
 {/* order kind */}
