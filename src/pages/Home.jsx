@@ -208,8 +208,21 @@ export default function Home() {
       <p className="text-center">Lorem ipsum dolor sit amet consectetur adipiscing elit ugue <br/>
         quam diam vitae velit bibendum elementum</p>
     </div>
-    
-    <SwiperComponent />
+    <div className="px-4">
+        <SwiperComponent />
+    </div>
+    <div className="flex gap-4  py-10 justify-center">
+              <button className="h-15 px-10 text-xl text-white border rounded-full bg-orange-500 hover:scale-105 hover:shadow-xl transition-transform duration-200 whitespace-nowrap">
+                  Order Online 
+                </button>
+                <button className="h-14 px-8 text-xl rounded-full text-gray-900 bg-white border border-gray-300 hover:bg-orange-500 hover:text-white transition-colors duration-300 whitespace-nowrap">
+                        Book Table
+                </button>
+      </div>
+
+       
+      
+      
     
    
 </div>
