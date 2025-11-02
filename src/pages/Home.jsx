@@ -201,7 +201,7 @@ export default function Home() {
           </div>
       </div>
 {/* order kind */}
-<div className="w-full max-w-[1300px] h-[2000px] md:h-[1000px] bg-yellow-400 ">
+<div className="w-full max-w-[1300px] h-[1000px] md:h-[1000px] bg-yellow-400 ">
   
     <div className="pt-40 px-19 pb-10 flex flex-col justify-center items-center bg-green-300 ">
       <h1 className=" font-bold text-2xl py-5 ">What our clients say</h1>
@@ -227,10 +227,28 @@ export default function Home() {
    
 </div>
 
-{/* order kind */}
-<div className=" w-full max-w-[1300px] h-[2400px] md:h-[1000px]  bg-pink-400  ">
+{/* Our articles */}
+  <div className=" w-full max-w-[1300px] h-[2400px] md:h-[1000px]  bg-purple-400  ">
+    <div className="flex flex-col justify-start gap-3 items-start px-10 md:flex-row md:justify-between md:items-center  ">
+      <h1>Our articles</h1>
+      <button>Browse our article</button>
+    </div>
+    
+    <div className=" flex gap-5">
+        <div className="bg-yellow-200">
+          <p>hi-1</p>
+        </div>
 
-</div>
+        <div  className="grid grid-cols-2 gap-4">
+          <div className="bg-green-300">hey1</div>
+          <div className="bg-green-300">hey2</div>
+          <div className="bg-green-300">hey3</div>
+          <div className="bg-green-300">hey4</div>
+        </div>
+
+    </div>
+
+  </div>
        
 
 
