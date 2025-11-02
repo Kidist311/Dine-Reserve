@@ -201,7 +201,7 @@ export default function Home() {
           </div>
       </div>
 {/* order kind */}
-<div className="w-full max-w-[1300px] h-[1000px] md:h-[1000px] bg-yellow-400 ">
+<div className="w-full max-w-[1300px] h-[1000px] md:h-[1000px] bg-yellow-400  mb-60">
   
     <div className="pt-40 px-19 pb-10 flex flex-col justify-center items-center bg-green-300 ">
       <h1 className=" font-bold text-2xl py-5 ">What our clients say</h1>
@@ -228,22 +228,40 @@ export default function Home() {
 </div>
 
 {/* Our articles */}
-  <div className=" w-full max-w-[1300px] h-[2400px] md:h-[1000px]  bg-purple-400  ">
-    <div className="flex flex-col justify-start gap-3 items-start px-10 md:flex-row md:justify-between md:items-center  ">
-      <h1>Our articles</h1>
-      <button>Browse our article</button>
+  <div className=" w-full max-w-[1300px] h-[2400px] md:h-[1000px]  bg-purple-400 ">
+    <div className="flex flex-col justify-start gap-3 items-start px-10 md:flex-row md:justify-between md:items-center  mt-auto mb-14 ">
+      <h1 className="font-bold text-3xl">Our articles</h1>
+      <button className="className=h-14 px-9 py-5 text-xl rounded-full text-gray-900 bg-white border border-gray-300 hover:bg-orange-500 hover:text-white transition-colors duration-300 whitespace-nowrap">Browse our article</button>
     </div>
     
-    <div className=" flex gap-5">
-        <div className="bg-yellow-200">
-          <p>hi-1</p>
-        </div>
+    <div className="flex flex-col md:flex-row gap-4 p-3 justify-center items-center ">
+    <div className="bg-yellow-200 mb-0 w-[450px] h-[400px] rounded-2xl md:w-[580px] md:h-[600px] flex flex-col justify-end items-start p-5">
+  
 
-        <div  className="grid grid-cols-2 gap-4">
-          <div className="bg-green-300">hey1</div>
-          <div className="bg-green-300">hey2</div>
-          <div className="bg-green-300">hey3</div>
-          <div className="bg-green-300">hey4</div>
+            <div className="w-full -mx-5 h-40 md:h-60 overflow-hidden rounded-xl bg-amber-600">
+              <img 
+                src="/icons/burger.png"
+                alt="description"
+                className=" w-[450px] md:w-[580px] h-full object-cover"
+              />
+            </div>
+
+            <div className="mt-3">
+              <h2 className="font-bold text-2xl mt-2">Lorem ipsum dolor sit amet consectetur</h2>
+              <p className="mt-2 text-gray-700">
+                Lorem ipsum dolor sit amet consectetur adipiscing elit. Ugue quam diam vitae velit bibendum elementum eget non vivamus volutpat odio cras vestibulum purus aliquam.
+              </p>
+            </div>
+          </div>
+
+
+        
+
+        <div  className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div className="bg-green-300 w-[450px] h-[400px] rounded-2xl md:w-[250px] md:h-[290px]">hey1</div>
+          <div className="bg-green-300 w-[450px] h-[400px] rounded-2xl md:w-[250px] md:h-[290px]">hey2</div>
+          <div className="bg-green-300 w-[450px] h-[400px] rounded-2xl md:w-[250px] md:h-[290px]">hey3</div>
+          <div className="bg-green-300 w-[450px] h-[400px] rounded-2xl md:w-[250px] md:h-[290px]">hey4</div>
         </div>
 
     </div>
