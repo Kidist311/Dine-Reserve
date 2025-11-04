@@ -235,33 +235,30 @@ export default function Home() {
     </div>
     
     <div className="flex flex-col md:flex-row gap-4 p-3 justify-center items-center ">
-    <div className="bg-yellow-200 mb-0 w-[450px] h-[400px] rounded-2xl md:w-[580px] md:h-[600px] flex flex-col justify-end items-start p-5">
-  
+    <div class="bg-yellow-200 mb-0 w-[450px] h-[400px] rounded-2xl md:w-[590px] md:h-[800px] flex flex-col justify-start items-start">
+    <div class="w-full h-[250px] md:h-[500px] overflow-hidden rounded-t-2xl bg-amber-600">
+        <img 
+            src="/icons/burger.png"
+            alt="Burger"
+            class="w-full h-full object-cover"
+        />
+    </div>
 
-            <div className="w-full -mx-5 h-40 md:h-60 overflow-hidden rounded-xl bg-amber-600">
-              <img 
-                src="/icons/burger.png"
-                alt="description"
-                className=" w-[450px] md:w-[580px] h-full object-cover"
-              />
-            </div>
-
-            <div className="mt-3">
-              <h2 className="font-bold text-2xl mt-2">Lorem ipsum dolor sit amet consectetur</h2>
-              <p className="mt-2 text-gray-700">
-                Lorem ipsum dolor sit amet consectetur adipiscing elit. Ugue quam diam vitae velit bibendum elementum eget non vivamus volutpat odio cras vestibulum purus aliquam.
-              </p>
-            </div>
-          </div>
-
+    <div class="p-5">
+        <h2 class="font-bold text-2xl mt-2">Lorem ipsum dolor sit amet consectetur</h2>
+        <p class="mt-2 text-gray-700">
+            Lorem ipsum dolor sit amet consectetur adipiscing elit. Ugue quam diam vitae velit bibendum elementum eget non vivamus volutpat odio cras vestibulum purus aliquam.
+        </p>
+    </div>
+</div>
 
         
 
         <div  className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          <div className="bg-green-300 w-[450px] h-[400px] rounded-2xl md:w-[250px] md:h-[290px]">hey1</div>
-          <div className="bg-green-300 w-[450px] h-[400px] rounded-2xl md:w-[250px] md:h-[290px]">hey2</div>
-          <div className="bg-green-300 w-[450px] h-[400px] rounded-2xl md:w-[250px] md:h-[290px]">hey3</div>
-          <div className="bg-green-300 w-[450px] h-[400px] rounded-2xl md:w-[250px] md:h-[290px]">hey4</div>
+          <div className="bg-green-300 w-[450px] h-[400px] rounded-2xl md:w-[280px] md:h-[390px]">hey1</div>
+          <div className="bg-green-300 w-[450px] h-[400px] rounded-2xl md:w-[280px] md:h-[390px]">hey2</div>
+          <div className="bg-green-300 w-[450px] h-[400px] rounded-2xl md:w-[280px] md:h-[390px]">hey3</div>
+          <div className="bg-green-300 w-[450px] h-[400px] rounded-2xl md:w-[280px] md:h-[390px]">hey4</div>
         </div>
 
     </div>
