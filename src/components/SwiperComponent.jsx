@@ -20,7 +20,7 @@ export default function SwiperComponent() {
         }}
         className="mySwiper h-[500px]   "
       >
-            <SwiperSlide className="border rounded-2xl">
+            <SwiperSlide className=" rounded-2xl">
                 <div className="flex flex-col px-15 pt-30 ">
                   <h1 className="font-bold text-left text-2xl">“The best burgers in LA, period”</h1>
                   <p className="text-left pt-5">
@@ -45,7 +45,7 @@ export default function SwiperComponent() {
                   </div>
                 </div>
             </SwiperSlide>
-            <SwiperSlide className="border rounded-2xl">
+            <SwiperSlide className=" rounded-2xl">
                 <div className="flex flex-col px-15 pt-30 ">
                   <h1 className="font-bold text-left text-2xl">“The best burgers in LA, period”</h1>
                   <p className="text-left pt-5">
@@ -70,7 +70,7 @@ export default function SwiperComponent() {
                   </div>
                 </div>
             </SwiperSlide>
-            <SwiperSlide className="border rounded-2xl">
+            <SwiperSlide className=" rounded-2xl">
                 <div className="flex flex-col px-15 pt-30 ">
                   <h1 className="font-bold text-left text-2xl">“The best burgers in LA, period”</h1>
                   <p className="text-left pt-5">
