@@ -12,7 +12,7 @@ export default function Home() {
             <div className="flex flex-col md:flex-row gap-9 px-3 md:px-5 py-3 ">
                 <div className="bg-gray-50 p-4 md:p-4 h-[400px] md:h-[550px]   md:flex-1 ">
                     <h1 className="text-5xl  text-left font-bold mt-12 md:mt-14 md:justify-center">The best place to eat <br /> 
-                    <span className="text-orange-500">burgers in LA</span>.
+                    <span className="text-orange-500">burgers in Bole</span>.
                       </h1>
                     <p className="text-gray-600 mt-8">Lorem ipsum dolor sit amet consectetur adipiscing elit ugue quam diam vitae velit bibendum elementum eget non vivamus volutpat odio cras vestibulum purus aliquam.</p>
                     
@@ -221,7 +221,10 @@ export default function Home() {
       </div>
 
        
+   
       
+
+
       
     
    
