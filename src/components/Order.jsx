@@ -5,7 +5,7 @@ export default function Order(){
             <h1 className="text-6xl font-bold text-center mt-35">Order via app</h1>
             <p className=" text-gray-500 mt-6 text-center mb-20">
             Duis aute irure dolor in reprehenderit in voluptate velit esse cillum<br/>
-            dolore eu fugiat nulla pariatur occaecat cupidatat
+            dolore eu fugiat nulla pariatur occaecat cupidatatt
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-4 gap-6 bg-white place-items-center mt-10 mx-6">
