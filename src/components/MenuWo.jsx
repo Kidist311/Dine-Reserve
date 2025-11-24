@@ -1,6 +1,6 @@
 import { Car } from "lucide-react";
 import { Link } from "react-router-dom";
-import Card from "../components/card.jsx";
+import Card from "../components/Card.jsx";
 import foods from "../foods.js";
 
 export default function MenuWo() {
