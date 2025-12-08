@@ -29,7 +29,8 @@ export default function Home() {
                 <div className="bg-transparent  p-4 md:p-0  h-[450px] md:h-[550px] md:flex-1 relative  -mb-40 z-20 flex justify-center items-center">
 
                         <img
-                            src="/icons/burger.png"
+                      
+                            src={`${import.meta.env.BASE_URL}icons/burger.png`}
                             alt="logo"
                             className="w-[470px] h-[460px] md:h-[500px] md:w-[500px] object-contain rounded-lg rotate-[-2deg] shadow-lg transition-transform duration-500 hover:scale-108 hover:rotate-0"
                         />
@@ -148,7 +149,7 @@ export default function Home() {
                     />
                     <div className="relative bg-white  w-[340px] h-[320px] mt-52 ml-56 rounded-2xl md:mt-96 md:w-[400px] md:h-[360px] md:ml-48 shadow-lg">
                         <div className="flex flex-col gap-4 p-4 text-left px-5 ">
-                            <h1 className="font-bold text-2xl text-center mt-5">Come and visit us</h1>
+                            <h1 className="font-bold text-2xl text-center mt-5">Come and visit Us</h1>
                             <p className="flex mt-3 text-gray-700 "><img src="/k/location.png" alt="location" className="w-10 h-9 rounded-full px-2" />
                                   837 W. Marshall Lane
                                   Marshalltown, 
@@ -355,9 +356,11 @@ export default function Home() {
       </div>
     );
   }
+
   /*<div className="grid grid-cols-2 gap-4">
   <div className="bg-red-300 p-4 h-10">Column 1</div>
   <div className="bg-blue-300 p-4 flex justify-center items-center">
+
   <img
     src="/icons/logo.png"
     alt="logo"

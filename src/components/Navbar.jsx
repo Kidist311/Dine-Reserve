@@ -26,7 +26,9 @@ export default function Navbar({ setCartOpen, cartItems }) {
       <div className="flex items-center justify-between w-full">
         {/* Logo */}
         <div className="flex items-center gap-2">
-          <img src="/icons/logo.png" alt="logo" className="w-14 h-8" />
+        <img src={`${import.meta.env.BASE_URL}icons/logo.png`} alt="logo" className="w-14 h-8" />
+
+         
           <h1 className="text-2xl md:text-3xl font-bold text-black-500 tracking-tight whitespace-nowrap font-[Noto_Serif_Display]">
             WOW Burger
           </h1>
