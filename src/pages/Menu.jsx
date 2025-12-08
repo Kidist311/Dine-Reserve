@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import Card from "../components/Card.jsx";
 import foods from "../foods.js";
 import Order from "../components/Order.jsx";
+import Footer from "../components/Footer.jsx";
 export default function Menu() {
 
     function createCard(food){
@@ -21,7 +22,7 @@ export default function Menu() {
     //const breakfastFoods = foods.filter(food => food.category === "breakfast");
 
     return (
-        <div className="relative w-full max-w-[1300px] h-[5000px] bg-white"> {/* bg-gray*/}
+        <div className="relative w-full max-w-[1300px]  bg-white"> {/* bg-gray*/}
             <div className="w-full max-w-[1300px] h-[340px] bg-white flex flex-col items-center">
                 <h1 className="text-7xl font-bold text-center mt-20">Our menu</h1>
                 <p className="text-center text-gray-500 mt-4 px-20">
@@ -54,6 +55,7 @@ export default function Menu() {
             </div>
             
             <Order />
+            <Footer />
 
         </div>
     );
