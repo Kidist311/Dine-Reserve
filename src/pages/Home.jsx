@@ -51,11 +51,11 @@ export default function Home() {
         <div className="  top-0 left-0 w-full max-w-[1300px] h-[300px]  bg-white relative ">
             <p className="flex justify-center font-bold text-2xl py-32 ">Order from your favorite app today!</p>
             <div className="flex justify-center gap-3 md:gap-10 flex-wrap bg-white items-center -mt-20">
-                <a className="" href="https://www.ubereats.com/"><img src="/icons/uber.svg" alt="Uber Eats" className="w-35 h-35" /></a>
-                <a className="" href="https://www.doordash.com/"><img src="/icons/door.svg" alt="Uber Eats" className="w-50 h-50" /></a>
-                <a className="" href="https://postmates.com/"><img src="/icons/post.svg" alt="Uber Eats" className="w-35 h-35" /></a>
-                <a className="" href="https://www.rappi.com.mx/"><img src="/icons/Rappi.svg" alt="Uber Eats" className="w-35 h-35" /></a>
-                <a className="" href="https://www.grubhub.com/"><img src="/icons/guhu.svg" alt="Uber Eats" className="w-35 h-35" /></a>
+                <a className="" href="https://www.ubereats.com/"><img src={`${import.meta.env.BASE_URL}/icons/uber.svg`} alt="Uber Eats" className="w-35 h-35" /></a>
+                <a className="" href="https://www.doordash.com/"><img src={`${import.meta.env.BASE_URL}/icons/door.svg`}  alt="Uber Eats" className="w-50 h-50" /></a>
+                <a className="" href="https://postmates.com/"> <img src={`${import.meta.env.BASE_URL}/icons/post.svg`} alt="Uber Eats" className="w-35 h-35" /></a>
+                <a className="" href="https://www.rappi.com.mx/"><img src={`${import.meta.env.BASE_URL}/icons/Rappi.svg`}  alt="Uber Eats" className="w-35 h-35" /></a>
+                <a className="" href="https://www.grubhub.com/"><img src={`${import.meta.env.BASE_URL}/icons/guhu.svg`} alt="Uber Eats" className="w-35 h-35" /></a>
             </div>
             <hr className="mr-5 ml-5 mt-15 border-gray-500" />
         </div>
@@ -151,7 +151,7 @@ export default function Home() {
           </div>
 
           <div className="flex-1 bg-red-400 ">
-              <img src="/k/burger.png" alt="phone" className="w-full h-full object-cover" />
+              <img src={`${import.meta.env.BASE_URL}/k/burger.png`}  alt="phone" className="w-full h-full object-cover" />
 
           </div>
       </div>

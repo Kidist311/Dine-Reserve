@@ -33,7 +33,8 @@ export default function About() {
           {/* Image section */}
           <div className="bg-white h-[480px] w-[500px] md:h-[700px] md:w-[550px] rounded-2xl md:mt-30 relative">
             <img 
-              src="/k/fries.png"
+              src={`${import.meta.env.BASE_URL}/k/fries.png`}
+              
               alt="About us image"
               className="absolute h-[480px] w-[500px] md:h-[700px] md:w-[550px] rounded-2xl"
             />
