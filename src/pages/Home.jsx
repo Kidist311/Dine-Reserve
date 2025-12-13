@@ -6,6 +6,8 @@ import Footer from "../components/Footer.jsx";
 import Article from "../components/Article.jsx"
 import BookTable from "../components/BookTable.jsx";
 import About from "./About.jsx";
+import Reservation from "../components/Reservation.jsx";
+
 
 
 export default function Home() {
@@ -188,6 +190,8 @@ export default function Home() {
 {/* Our articles */}
       <Article />
       <BookTable />
+      
+      <Reservation />
       <Footer />
 
       
