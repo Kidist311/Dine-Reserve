@@ -156,7 +156,7 @@ export default function Home() {
           </div>
       </div>
 {/* order kind */}
-<div className="w-full max-w-[1300px] h-[1000px] md:h-[1000px] bg-white  mb-60">
+<div className="w-full max-w-[1300px] h-[1000px] md:h-[800px] bg-white  mb-60">
   
     <div className="pt-40 px-19 pb-10 flex flex-col justify-center items-center bg-white ">
       <h1 className=" font-bold text-2xl py-5 ">What our clients say</h1>
