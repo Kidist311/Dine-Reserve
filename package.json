@@ -1,9 +1,8 @@
 {
   "name": "web-food",
   "private": true,
-  "version": "0.0.0", 
+  "version": "0.0.0",
   "homepage": "https://Kidist311.github.io/web-food",
-
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -11,11 +10,11 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-"deploy": "gh-pages -d dist"
-
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.12",
+    "framer-motion": "^12.23.26",
     "lucide-react": "^0.542.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
