@@ -5,11 +5,10 @@ import SwiperComponent from "../components/SwiperComponent.jsx";
 import Footer from "../components/Footer.jsx";
 import Article from "../components/Article.jsx"
 import BookTable from "../components/BookTable.jsx";
-import About from "./About.jsx";
 import Reservation from "../components/Reservation.jsx";
+import AboutUs from "../components/AboutP/AboutUs.jsx";
 
-
-
+import About from "./About.jsx";
 export default function Home() {
     return (
       <div className="relative w-full max-w-[1300px] h-[5000px] bg-white  ">
@@ -123,7 +122,7 @@ export default function Home() {
         </div>
         
        {/* About us */}
-       <About />
+       <AboutUs />
 
        {/* menu */}
        <MenuWo />
