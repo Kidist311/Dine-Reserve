@@ -78,7 +78,7 @@ export default function Home() {
                     <div className="w-[500px] h-[400px] border rounded-2xl border-gray-300 items-center flex flex-col justify-evenly p-3
                         transform transition-transform duration-300 hover:scale-105 hover:shadow-xl">
                         
-                        <img src="/icons/post.svg" alt="Uber Eats" className="w-30 h-30  rounded-full " />
+                        <img src={`${import.meta.env.BASE_URL}/icons/post.svg`} alt="Uber Eats" className="w-30 h-30  rounded-full " />
                         <h3 className="font-bold text-2xl -mt-4">Main Dishes</h3>
                         <p className="text-gray-500 -mt-4 text-center">Lorem ipsum dolor sit amet consectetur adipiscing </p>
                         <button className="text-orange-500 font-bold flex items-center gap-1 hover:gap-2 transition-all duration-300">
@@ -88,7 +88,7 @@ export default function Home() {
                     <div className="w-[500px] h-[400px] border rounded-2xl border-gray-300 items-center flex flex-col justify-evenly p-3
                         transform transition-transform duration-300 hover:scale-105 hover:shadow-xl">
                         
-                        <img src="/icons/post.svg" alt="Uber Eats" className="w-30 h-30 rounded-full " />
+                        <img src={`${import.meta.env.BASE_URL}/icons/post.svg`} alt="Uber Eats" className="w-30 h-30 rounded-full " />
                         <h3 className="font-bold text-2xl -mt-4">Drinks</h3>
                         <p className="text-gray-500 -mt-4 text-center">Lorem ipsum dolor sit amet consectetur adipiscing </p>
                         <button className="text-orange-500 font-bold flex items-center gap-1 hover:gap-2 transition-all duration-300">
